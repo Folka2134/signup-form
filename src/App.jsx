@@ -34,10 +34,12 @@ function App() {
   console.log(formik.errors);
 
   return (
-    <div className="App h-screen bg-[#ff686b] bg-[url('./assets/bg-intro-desktop.png')] w-screen p-12">
-      <div>
-        <h1>Learn to code by watching others</h1>
-        <p>
+    <div className="flex flex-col xl:flex-row items-center justify-center text-center xl:text-left h-screen bg-[#ff686b] bg-[url('./assets/bg-intro-desktop.png')] w-screen p-12">
+      <div className=" text-white mb-20 xl:mr-32 xl:max-w-xl">
+        <h1 className="text-3xl md:text-6xl font-bold mb-6">
+          Learn to code by watching others
+        </h1>
+        <p className="md:text-xl">
           See how experienced developers solve problems in real-time. Watching
           scripted tutorials is great, but understanding how developers think is
           invaluable.
@@ -45,7 +47,9 @@ function App() {
       </div>
       <div>
         <div>
-          <p>Try it free 7 days then $20/mo. thereafter</p>
+          <button className="text-white font-semibold p-4 px-24 rounded-lg shadow-xl bg-purple-600 active:bg-purple-500 mb-6">
+            Try it free 7 days then $20/mo. thereafter
+          </button>
         </div>
         <div>
           <form
