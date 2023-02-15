@@ -128,14 +128,16 @@ function App() {
                 </label>
               )}
             </div>
-            <input
-              className="text-white font-semibold bg-green-400 p-4 rounded-lg shadow-xl"
+            <button
+              className="text-white font-semibold bg-green-400 active:bg-green-300 p-4 rounded-lg shadow-xl"
               type="submit"
-              value="CLAIM YOUR FREE TRAIL"
-            />
+              value=""
+            >
+              CLAIM YOUR FREE TRAIL
+            </button>
             <p className="text-xs text-gray-400 text-center px-8">
               By clicking the button, you are agreeing to our{" "}
-              <span className="text-red-400 font-semibold">
+              <span className="text-red-400 font-semibold cursor-pointer">
                 Terms and Services
               </span>
             </p>
