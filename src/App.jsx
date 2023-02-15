@@ -48,7 +48,8 @@ function App() {
       <div>
         <div>
           <button className="text-white font-semibold p-4 px-24 rounded-lg shadow-xl bg-purple-600 active:bg-purple-500 mb-6">
-            Try it free 7 days then $20/mo. thereafter
+            <span className="font-bold">Try it free 7 days</span> then $20/mo.
+            thereafter
           </button>
         </div>
         <div>
