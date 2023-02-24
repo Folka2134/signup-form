@@ -121,7 +121,7 @@ function App() {
                     ? "border-red-400"
                     : "border-gray-200"
                 }`}
-                type="text"
+                type="password"
                 name="password"
                 placeholder="Password"
                 value={formik.values.password}
